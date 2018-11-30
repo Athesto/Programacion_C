@@ -3,7 +3,8 @@
 
 ## Introducción
 
-![Educacion, Piaget](https://akifrases.com/frases-imagenes/frase-el-objetivo-principal-de-la-educacion-es-crear-personas-capaces-de-hacer-cosas-nuevas-y-no-jean-piaget-148083u.jpg)
+![Educacion, Piaget](assets/images/Educacion_Jean_Piaget.jpg)
+
 
 Muchas veces queremos aprender pero ignoramos el hecho de no estamos solos. Existen otras personas que estubieron donde estás, tuvieron las mismas dudas, se desesperaron igualmente y por lo que escuchar sus problemas y ver como lo solucionan te permitirá ampliar tu visión de lo que lo que te gustaría hacer además de tener un lugar en donde compartir lo que creas
 

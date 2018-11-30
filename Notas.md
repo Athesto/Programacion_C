@@ -2,6 +2,9 @@
  > Notas del libro de lenguaje de Programación de C y otros documentos
 
 ## Introducción
+
+![Educacion, Piaget](https://akifrases.com/frases-imagenes/frase-el-objetivo-principal-de-la-educacion-es-crear-personas-capaces-de-hacer-cosas-nuevas-y-no-jean-piaget-148083u.jpg)
+
 Muchas veces queremos aprender pero ignoramos el hecho de no estamos solos. Existen otras personas que estubieron donde estás, tuvieron las mismas dudas, se desesperaron igualmente y por lo que escuchar sus problemas y ver como lo solucionan te permitirá ampliar tu visión de lo que lo que te gustaría hacer además de tener un lugar en donde compartir lo que creas
 
 Esta es una lista de algunas comunidades que he econtrado
@@ -16,9 +19,9 @@ Una mala práctica es dejar constantes sin documentacion, por ejemplo un `13` ca
 ```c
 #define PAISES_SURAMERICA 13
 ```
-Estas constantes que se incluyen directamente en el código fuente se les conocen como [números mágicos][1.4.1] y son un [antipatrón de diseño][1.4.2]
+Estas constantes que se incluyen directamente en el código fuente se les conocen como [números mágicos][1.4.1] y son un [antipatrón de diseño][1.4.2]sdfasdfd
 
-Adicionalmente, para saber que direferencias existen entre `#define` y `const` en Cpp, se puede revisar el artículo [const contra #define][vitaminacpp_constvsdef]
+Adicionalmente, para saber que direferencias existen entre `#define` y `const` en Cpp, se puede revisar el artículo [const contra #define][taminacpp_constvsdef]
 
 ### Convenciones
 Los nombres de constantes simbólicas, por convención se escriben con letras mayusculas

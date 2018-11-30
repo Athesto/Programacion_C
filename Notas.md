@@ -4,22 +4,12 @@
 
 ## Introducción
 
-![Educacion, Piaget](assets/images/Educacion_Jean_Piaget.jpg | width: 200px)
-
-<p align="center">
-  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=400rem>
-</p>
-<p align="center">
-  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=20%>
-</p>
-<p align="center">
-  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=250px>
-</p>
-
-
-
-
 Muchas veces queremos aprender pero ignoramos el hecho de no estamos solos. Existen otras personas que estubieron donde estás, tuvieron las mismas dudas, se desesperaron igualmente y por lo que escuchar sus problemas y ver como lo solucionan te permitirá ampliar tu visión de lo que lo que te gustaría hacer además de tener un lugar en donde compartir lo que creas
+
+<p align="center">
+  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=40%>
+</p>
+
 
 Esta es una lista de algunas comunidades que he econtrado
  - [Desarrolladores/Cpp (Facebook)](https://www.facebook.com/groups/467783429968410/post_tags/?post_tag_id=1998231400256931) 

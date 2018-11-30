@@ -1,9 +1,22 @@
+
 # Notas Lenguaje C
  > Notas del libro de lenguaje de Programación de C y otros documentos
 
 ## Introducción
 
-![Educacion, Piaget](assets/images/Educacion_Jean_Piaget.jpg)
+![Educacion, Piaget](assets/images/Educacion_Jean_Piaget.jpg | width: 200px)
+
+<p align="center">
+  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=400rem>
+</p>
+<p align="center">
+  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=20%>
+</p>
+<p align="center">
+  <img alt="Educacion - Jean Piaget" src="assets/images/Educacion_Jean_Piaget.jpg" width=250px>
+</p>
+
+
 
 
 Muchas veces queremos aprender pero ignoramos el hecho de no estamos solos. Existen otras personas que estubieron donde estás, tuvieron las mismas dudas, se desesperaron igualmente y por lo que escuchar sus problemas y ver como lo solucionan te permitirá ampliar tu visión de lo que lo que te gustaría hacer además de tener un lugar en donde compartir lo que creas

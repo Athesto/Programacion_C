@@ -2,8 +2,7 @@
 # Notas Lenguaje C
  > Notas del libro de lenguaje de Programación de C y otros documentos
 
-## Introducción
-
+## Introducción 
 Muchas veces queremos aprender pero ignoramos el hecho de no estamos solos. Existen otras personas que estubieron donde estás, tuvieron las mismas dudas, se desesperaron igualmente y por lo que escuchar sus problemas y ver como lo solucionan te permitirá ampliar tu visión de lo que lo que te gustaría hacer además de tener un lugar en donde compartir lo que creas
 
 <p align="center">
@@ -14,7 +13,19 @@ Muchas veces queremos aprender pero ignoramos el hecho de no estamos solos. Exis
 Esta es una lista de algunas comunidades que he econtrado
  - [Desarrolladores/Cpp (Facebook)](https://www.facebook.com/groups/467783429968410/post_tags/?post_tag_id=1998231400256931) 
  - [foro.elhacker](https://foro.elhacker.net/programacion_cc-b49.0/) 
- 
+
+ Un dato a considerar es que cuando se habla de ANSI es el mismo C90 
+ El lenguaje de programación C puede diferenciarse en 4 estandares.
+ el primero se conoce como 
+
+  0. K&C
+  1. C89/C90/ANSI C 
+    - C94/C95 (AMD1)
+  3. C99
+  4. C11/C1X
+  5. C17 
+  6. C2X 
+
 
 ## 1.4 Constantes simbólicas
 ### Números Mágicos
@@ -46,3 +57,10 @@ EOF es una etiqueta con valor de [1](https://stackoverflow.com/a/4705984/468132)
 [1.4.1]:https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
 [1.4.2]:https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o
 [vitaminacpp_constvsdef]:https://vitaminacpp.wordpress.com/2013/01/06/const-contra-define/
+[C99-PDF]:http://www.dii.uchile.cl/~daespino/files/Iso_C_1999_definition.pdf
+[C90-PDF]:https://www.pdf-archive.com/2014/10/02/ansi-iso-9899-1990-1/ansi-iso-9899-1990-1.pdf
+
+[Fuente: GCC - Standards]:https://gcc.gnu.org/onlinedocs/gcc/Standards.html
+
+
+[History of C]:https://en.cppreference.com/w/c/language/history

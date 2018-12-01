@@ -34,7 +34,8 @@ c = getchar();
 putchar();
 EOF //End Of File
 ```
-EOF es una etiqueta con valor de [1](https://stackoverflow.com/a/4705984/468132)
+La función `getchar()` devuelve un valor distintivo cuando no hay más elementos en la entrada, un valor que no puede ser confundido con ningún otro carácter. Este valor se llama `EOF` por "end of file (fin de linea)" y normalmente posee valor de [-1](https://stackoverflow.com/a/4705984/468132). Este entero esta definido en `<stio.h>`
+
 
 [1.4.1]:https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
 [1.4.2]:https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o

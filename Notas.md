@@ -14,17 +14,24 @@ Esta es una lista de algunas comunidades que he econtrado
  - [Desarrolladores/Cpp (Facebook)](https://www.facebook.com/groups/467783429968410/post_tags/?post_tag_id=1998231400256931) 
  - [foro.elhacker](https://foro.elhacker.net/programacion_cc-b49.0/) 
 
- Un dato a considerar es que cuando se habla de ANSI es el mismo C90 
- El lenguaje de programación C puede diferenciarse en 4 estandares.
- el primero se conoce como 
 
-  0. K&C
-  1. C89/C90/ANSI C 
-    - C94/C95 (AMD1)
-  3. C99
-  4. C11/C1X
-  5. C17 
-  6. C2X 
+El lenguaje C consiguió su nombre desde 1972 y no fue hasta 1989 que el Instituto Nacional Estadounidense de Estándares (ANSI) publicó el primer estandar del lenguaje. Este documento explicaba como sería la sintaxis, las reglas semanticas, la representaciones de entradas y salidas, las restricciones etc.  
+El libro `El Lenguaje de Programación C (2da edición)` utiliza el estandar original(X3.159-1989) que después de rafifico en el estandar (ISO/IEC 9899:1990) en 1990, Se les conocen como `C89`,`C90` o `ANSI C`.  
+Actualmente nos encontramos en la 4ta versión y su última revisión fue publicada en el 2018 y se conoce como `C17`.  
+El próximo estandar será el C2X pero solamente esta en borrador. Esta información puede enctrarse en los siguientes links:
+ - [la Historia de C][History of C]
+ - [GNU Compiler Collection Documentation][Fuente: GCC - Standards]
+ - [Wikipedia](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+
+Esta es una lista de algunos estandares para que se tenga una referencia de su historia   
+
+0. K&C (por los creadores)
+1. C89/C90/ANSI C 
+    - C94/C95
+3. C99
+4. C11/C1X
+    - C17
+6. C2X 
 
 
 ## 1.4 Constantes simbólicas

@@ -31,10 +31,28 @@ Los nombres de constantes simbólicas, por convención se escriben con letras ma
 ## 1.5 Entrada y salida de caracteres
 ```c
 c = getchar();
-putchar();
+putchar()
 EOF //End Of File
 ```
 La función `getchar()` devuelve un valor distintivo cuando no hay más elementos en la entrada, un valor que no puede ser confundido con ningún otro carácter. Este valor se llama `EOF` por "end of file (fin de linea)" y normalmente posee valor de [-1](https://stackoverflow.com/a/4705984/468132). Este entero esta definido en `<stio.h>`
+
+Para generar el caracter `EOF`
+
+|OS     |Keys       |
+|------:|:---------:|
+|win    |`Ctrl`+`Z` |
+|Linux  |`Ctrl`+`D` | 
+
+Fuente: [Stackoverflow](https://stackoverflow.com/a/3646298/4681320)
+
+[//]: # ( https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) 
+
+```c
+printf("%f\n",100.0);
+printf("%.0f\n",100.0);
+```
+>100.000000  
+>100
 
 
 [1.4.1]:https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants

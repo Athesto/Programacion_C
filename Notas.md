@@ -45,7 +45,10 @@ Para generar el caracter `EOF`
 
 Fuente: [Stackoverflow](https://stackoverflow.com/a/3646298/4681320)
 
+
 [//]: # ( https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) 
+
+### Float sin punto
 
 ```c
 printf("%f\n",100.0);
@@ -54,6 +57,8 @@ printf("%.0f\n",100.0);
 >100.000000  
 >100
 
+### ASCII
+'\n' es un carácter simple con un valor ASCII de 10, mientras que "\n" es una cadena constante que contiene un solo carácter
 
 [1.4.1]:https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
 [1.4.2]:https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o

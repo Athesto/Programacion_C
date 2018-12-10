@@ -60,6 +60,36 @@ printf("%.0f\n",100.0);
 ### ASCII
 '\n' es un carácter simple con un valor ASCII de 10, mientras que "\n" es una cadena constante que contiene un solo carácter
 
+## 1.7 Funciones
+
+### Return 0;
+
+`main()` tiene un `return` al final, puesto que `main` es una función como cualquier otra, también puede regresar un valor a quien la invoca, que es el efecto el medio ambiente en que el programa se ejecuta.  
+Un valor `0` implica una terminación normal; los valores diferentes de cero indican condiciones de terminación no comunes o erróneas.
+### Funciones Prototipos
+
+```c
+int power(int m, int n); /*(1) Prototipo*/
+
+int main(){
+    power() /*(3) uso*/
+    ...
+}
+
+int power(int m, int n){ /*(2) definición*/
+    ...
+}
+```
+La declaración `(1)` se le conococe como *Función Prototipo* y  debe coincidir con la definición `(2)` y uso `(3)` de `power`
+
+Y aunque el nombre de los parámetros no sean obligatorios
+
+```c 
+int power(int, int) 
+```
+Es recomendable para tener una buena documentación
+
+
 [1.4.1]:https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
 [1.4.2]:https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o
 [vitaminacpp_constvsdef]:https://vitaminacpp.wordpress.com/2013/01/06/const-contra-define/

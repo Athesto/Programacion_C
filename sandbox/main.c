@@ -1,5 +1,11 @@
 #include <stdio.h>
+int msg();
+
 int main(){
-    printf("%f",100.0);
+    msg();
     return 0;
+}
+
+int msg(){
+    printf("halo\n");
 }

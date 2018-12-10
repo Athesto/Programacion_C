@@ -89,7 +89,12 @@ int power(int, int)
 ```
 Es recomendable para tener una buena documentación
 
+## 1.8 Argumentos - llamadas por valor
+
+Todos los argumentos de una función se pasan "por valor". Esto significa que la función que se invoca recibe los valores de sus arguentos en  variables temporales y no en las originales.
+
+
 
 [1.4.1]:https://en.wikipedia.org/wiki/Magic_number_(programming)#Unnamed_numerical_constants
 [1.4.2]:https://es.wikipedia.org/wiki/Antipatr%C3%B3n_de_dise%C3%B1o
-[vitaminacpp_constvsdef]:https://vitaminacpp.wordpress.com/2013/01/06/const-contra-define/
+[vitaminacpp_constvsdef]:https://vitaminacpp.wordpress.com/2013/01/06/const-contra-define

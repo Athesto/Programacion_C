@@ -26,6 +26,7 @@ El próximo estandar será el C2X pero solamente esta en borrador. Esta informac
  - [la Historia de C][History of C]
  - [GNU Compiler Collection Documentation][Fuente: GCC - Standards]
  - [Wikipedia](https://en.wikipedia.org/wiki/The_C_Programming_Language)
+ - [The Standard](http://www.iso-9899.info/wiki/The_Standard)
 
 Esta es una lista de algunos estandares para que se tenga una referencia de su historia   
 
@@ -47,9 +48,9 @@ Una mala práctica es dejar constantes sin documentacion, por ejemplo un `13` ca
 ```c
 #define PAISES_SURAMERICA 13
 ```
-Estas constantes que se incluyen directamente en el código fuente se les conocen como [números mágicos][1.4.1] y son un [antipatrón de diseño][1.4.2]sdfasdfd
+Estas constantes que se incluyen directamente en el código fuente se les conocen como [números mágicos][1.4.1] y son un [antipatrón de diseño][1.4.2]
 
-Adicionalmente, para saber que direferencias existen entre `#define` y `const` en Cpp, se puede revisar el artículo [const contra #define][taminacpp_constvsdef]
+Adicionalmente, para saber que direferencias existen entre `#define` y `const` en Cpp, se puede revisar el artículo [const contra #define][vitaminacpp_constvsdef]
 
 ### Convenciones
 Los nombres de constantes simbólicas, por convención se escriben con letras mayusculas
@@ -89,13 +90,13 @@ printf("%.0f\n",100.0);
 >100
 
 ### ASCII
-'\n' es un carácter simple con un valor ASCII de 10, mientras que "\n" es una cadena constante que contiene un solo carácter
+`'\n'` es un carácter simple con un valor ASCII de 10, mientras que `"\n"` es una cadena constante que contiene un solo carácter
 
 ## 1.7 Funciones
 
 ### Return 0;
 
-`main()` tiene un `return` al final, puesto que `main` es una función como cualquier otra, también puede regresar un valor a quien la invoca, que es el efecto el medio ambiente en que el programa se ejecuta.  
+`main()` tiene un `return` al final, puesto que `main()` es una función como cualquier otra, también puede regresar un valor a quien la invoca, que es el efecto el medio ambiente en que el programa se ejecuta.  
 Un valor `0` implica una terminación normal; los valores diferentes de cero indican condiciones de terminación no comunes o erróneas.
 ### Funciones Prototipos
 
@@ -122,7 +123,8 @@ Es recomendable para tener una buena documentación
 
 ## 1.8 Argumentos - llamadas por valor
 
-Todos los argumentos de una función se pasan "por valor". Esto significa que la función que se invoca recibe los valores de sus arguentos en  variables temporales y no en las originales.
+**En C, todos los argumentos que se llaman en una función, pasan como valores.** Esto quiere decir que al invocar una función, esta crea una copia de sus argumentos en variables temporales. Así la función queda independiente de sus entradas.  
+Adicionalmente existe otra llamada que se conoce como **llamada por referencia** donde la función si tiene acceso al los argumentos originales.
 
 <p align="center">
   <img 
@@ -133,6 +135,23 @@ Todos los argumentos de una función se pasan "por valor". Esto significa que la
 </p>
 
 Fuente: [Mathwarehouse][Mathwarehouse]
+
+Cuando el nombre un arreglo se emplea como argumento, el valor que se pasa es la localización del principio del arreglo.
+
+## 1.9 Arreglos de Caracteres
+
+
+
+
+
+
+# Sinónimos
+|Libro  | Tavo |
+|:------|------|
+|Arreglo |Vector|
+|Argumentos| Variable de entrada|
+
+
 
 [Mathwarehouse]:https://www.mathwarehouse.com/programming/gifs.php
 
@@ -154,3 +173,4 @@ Fuente: [Mathwarehouse][Mathwarehouse]
 [Fuente: GCC - Standards]:https://gcc.gnu.org/onlinedocs/gcc/Standards.html
 
 [History of C]:https://en.cppreference.com/w/c/language/history
+[fool2fish's notes]:https://github.com/fool2fish/the-c-programming-language-exercise-answers

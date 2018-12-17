@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXLINE 10
+#define MAXLINE 1000
 int getline(char line[], int maxline);
 void copy(char to[], char from[]);
 /* imprime la linea de entrada más larga */

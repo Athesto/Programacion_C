@@ -44,7 +44,4 @@ void rmextra(char to[], char from[]){
        ++i;
     for(i; to[i] == '\n' || to[i] == '\t';--i)
         to[i]= '\0';
-    
-
-
 }
